@@ -33,7 +33,7 @@ const ChannelDetail = () => {
     return (
         <Box minHeight="95vh">
             <Box>
-                <div style={{ background: 'red', zIndex: 10, height: '300px' }} />
+                <div style={{ background: '#4169e1', zIndex: 10, height: '300px' }} />
                 <ChannelCard channelDetail={channelDetail} marginTop='-110px' />
             </Box>
             <Box p={2} display="flex">
